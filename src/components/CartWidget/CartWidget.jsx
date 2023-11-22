@@ -1,9 +1,11 @@
-import React from "react";
+import { FaCartPlus } from "react-icons/fa";
 
 const ItemListContainer = ({ greeting }) => {
   return (
     <div>
-      <h2>{greeting}</h2>
+      <h2>
+        <FaCartPlus />
+      </h2>
     </div>
   );
 };
