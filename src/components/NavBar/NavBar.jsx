@@ -8,16 +8,17 @@ function NavBar() {
     <>
       <Navbar bg="primary" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home">Kiosco Virtual</Navbar.Brand>
+          <Navbar.Brand to="/">Kiosco Virtual</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Bebidas</Nav.Link>
-            <Nav.Link href="#pricing">Snacks</Nav.Link>
-            <Nav.Link href="#pricing">Golosinas</Nav.Link>
-            <Nav.Link href="#pricing">
-              <CardWidget />
-            </Nav.Link>
+            <Link to="/">Home</Link>
+            <Link to="/bebidas">Bebidas</Link>
+            <Link to="/snaks">Snacks</Link>
+            <Link to="/golosinas">Golosinas</Link>
           </Nav>
+          <Link to="/cart">
+            {" "}
+            <CardWidget />{" "}
+          </Link>
         </Container>
       </Navbar>
     </>
