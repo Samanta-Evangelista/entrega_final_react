@@ -15,10 +15,12 @@
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import "./App.css";
 import Navbar from "./components/NavBar/NavBar";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
+      <BrowserRouter></BrowserRouter>
       <Navbar />
       <ItemListContainer greeting="Bienvenidos" />
     </div>
