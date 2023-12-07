@@ -10,15 +10,15 @@ function NavBar() {
         <Container>
           <Navbar.Brand to="/">Kiosco Virtual</Navbar.Brand>
           <Nav className="me-auto">
-            <Link to="/">Home</Link>
-            <Link to="/bebidas">Bebidas</Link>
-            <Link to="/snaks">Snacks</Link>
-            <Link to="/golosinas">Golosinas</Link>
+            <Nav.Link to="/">Home</Nav.Link>
+            <Nav.Link to="/bebidas">Bebidas</Nav.Link>
+            <Nav.Link to="/snaks">Snacks</Nav.Link>
+            <Nav.Link to="/golosinas">Golosinas</Nav.Link>
           </Nav>
-          <Link to="/cart">
+          <Nav.Link to="/cart">
             {" "}
             <CardWidget />{" "}
-          </Link>
+          </Nav.Link>
         </Container>
       </Navbar>
     </>
