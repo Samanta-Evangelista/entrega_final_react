@@ -5,7 +5,7 @@
     "categoria": "golosinas",
     "stock": 30,
     "precio": 180,
-    "rutaImagen": "jorgitonegro.jpg"
+    "img": "jorgitonegro.jpg"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "categoria": "golosinas",
     "stock": 30,
     "precio": 180,
-    "rutaImagen": "jorgitoblanco.jpg"
+    "img": "jorgitoblanco.jpg"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "categoria": "snack",
     "stock": 25,
     "precio": 200,
-    "rutaImagen": "tutucas.jpg"
+    "img": "tutucas.jpg"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "categoria": "snack",
     "stock": 25,
     "precio": 350,
-    "rutaImagen": "papasfritas.jpg"
+    "img": "papasfritas.jpg"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "categoria": "bebidas",
     "stock": 30,
     "precio": 300,
-    "rutaImagen": "aguamineral.jpg"
+    "img": "aguamineral.jpg"
   },
   {
     "id": 6,
@@ -45,6 +45,6 @@
     "categoria": "bebidas",
     "stock": 50,
     "precio": 200,
-    "rutaImagen": "baggiomultifruta.jpg"
+    "img": "baggiomultifruta.jpg"
   }
 ]
