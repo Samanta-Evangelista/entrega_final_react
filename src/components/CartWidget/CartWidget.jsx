@@ -1,8 +1,8 @@
 import { FaCartPlus } from "react-icons/fa";
 
-const ItemListContainer = ({ greeting }) => {
+const CartWidget = () => {
   return (
-    <div>
+    <div style={{ color: "white" }}>
       <h2>
         <FaCartPlus />
       </h2>
@@ -10,4 +10,4 @@ const ItemListContainer = ({ greeting }) => {
   );
 };
 
-export default ItemListContainer;
+export default CartWidget;
