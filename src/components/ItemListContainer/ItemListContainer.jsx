@@ -2,11 +2,12 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import ItemList from "../ItemList/ItemList.jsx";
-import arrayProductos from "../Json/arrayProductos.json";
+import arrayProductos from "../json/arrayProductos.json";
 import "./ItemListContainer.css";
 
 const ItemListContainer = () => {
   const [item, setItem] = useState([]);
+
   const { id } = useParams();
 
   useEffect(() => {
