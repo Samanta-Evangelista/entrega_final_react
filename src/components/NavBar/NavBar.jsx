@@ -13,10 +13,21 @@ function NavBar() {
             Kiosco Virtual
           </Navbar.Brand>
           <Nav className="me-auto">
-            <Link to="/" className="nav-link">Home</Link>
-            <Link to="/categoria/bebidas" className="nav-link">Bebidas</Link>
-            <Link to="/categoria/snaks" className="nav-link">Snacks</Link>
-            <Link to="/categoria/golosinas" className="nav-link">Golosinas</Link>
+            <Link to="/" className="nav-link">
+              Home
+            </Link>
+            <Link to="/categoria/bebidas" className="nav-link">
+              Bebidas
+            </Link>
+            <Link to="/categoria/snaks" className="nav-link">
+              Snacks
+            </Link>
+            <Link to="/categoria/golosinas" className="nav-link">
+              Golosinas
+            </Link>
+            <Link to="contacto" className="nav-link">
+              Contacto
+            </Link>
           </Nav>
           <Link to="/" className="nav-link">
             <CardWidget />
