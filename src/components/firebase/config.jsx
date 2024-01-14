@@ -6,6 +6,12 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
+  // apiKey: process.env.REACT_APP_apiKey,
+  // authDomain: process.env.REACT_APP_authDomain,
+  // projectId: process.env.REACT_APP_projectId,
+  // storageBucket: process.env.REACT_APP_storageBucket,
+  // messagingSenderId: process.env.REACT_APP_messagingSenderId,
+  // appId: process.env.REACT_APP_appIds,
   apiKey: "AIzaSyCKTbKgmhcNQ6HrdvU5Oz4nxq0nqI7w9LU",
   authDomain: "kioscovirtual-9f240.firebaseapp.com",
   projectId: "kioscovirtual-9f240",
