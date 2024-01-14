@@ -27,9 +27,9 @@ const ItemDetail = ({ item }) => {
         />
         <h3>{item.nombre}</h3>
         <h4>$ {item.precio}</h4>
-        <p>
+        {/* <p>
           <strong>Stock: {item.stock}</strong>{" "}
-        </p>
+        </p> */}
         <ItemCount
           cantidad={cantidad}
           handlerRestar={handlerRestar}

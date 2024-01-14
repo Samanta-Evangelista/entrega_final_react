@@ -1,11 +1,16 @@
+import { useContext } from "react";
 import { FaCartPlus } from "react-icons/fa";
+import { CartContext } from "../CartContext";
 
 const CartWidget = () => {
+  const { cantidadEnCarrito } = useContext(CartContext);
+
   return (
     <div style={{ color: "white" }}>
-      <h2>
+      <h3>
         <FaCartPlus />
-      </h2>
+        <small>({cantidadEnCarrito()})</small>
+      </h3>
     </div>
   );
 };
