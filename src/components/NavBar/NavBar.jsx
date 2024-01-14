@@ -29,7 +29,7 @@ function NavBar() {
               Contacto
             </Link>
           </Nav>
-          <Link to="/" className="nav-link">
+          <Link to="carrito" className="nav-link">
             <CardWidget />
           </Link>
         </Container>
