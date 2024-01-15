@@ -19,6 +19,7 @@ const firebaseConfig = {
   messagingSenderId: "574565265561",
   appId: "1:574565265561:web:013a87ae65a16d8c4e4808",
 };
+//hice la configuracion como indican, pero me da error y se cae la Pagina, por lo que decidi dejarlo comentado,
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
