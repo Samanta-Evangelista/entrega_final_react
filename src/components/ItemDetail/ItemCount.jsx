@@ -15,9 +15,11 @@ const ItemCount = ({
         <button onClick={handlerSumar}>+</button>
       </div>
 
-      <button className="agregar-al-carrito" onClick={handlerAgregar}>
-        Agregar al carrito
-      </button>
+      <div className="item-button">
+        <button className="agregar-al-carrito" onClick={handlerAgregar}>
+          Agregar al carrito
+        </button>
+      </div>
     </div>
   );
 };

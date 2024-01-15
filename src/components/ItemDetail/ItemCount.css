@@ -1,8 +1,14 @@
 .item-count {
   display: flex;
-  /* align-items: center; */
+  justify-content: center;
   gap: 1rem;
   margin-top: 1rem;
+}
+
+.item-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
 }
 
 .item-count button,
