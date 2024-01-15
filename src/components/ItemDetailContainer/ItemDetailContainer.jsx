@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-// import arrayProductos from "../json/arrayProductos.json";
 import ItemDetail from "../ItemDetail/ItemDetail";
 import { doc, getDoc } from "firebase/firestore";
 import { db } from "../firebase/config";
@@ -15,17 +14,6 @@ const ItemDetailContainer = () => {
       setItem({ ...resp.data(), id: resp.id });
     });
   }, [id]);
-
-  // useEffect(() => {
-  //   const promesa = new Promise((resolve) => {
-  //     setTimeout(() => {
-  //       resolve(arrayProductos.find((item) => item.id === parseInt(id)));
-  //     }, 1000);
-  //   });
-  //   promesa.then((data) => {
-  //     setItem(data);
-  //   });
-  // }, [id]);
 
   return (
     <div className="container">

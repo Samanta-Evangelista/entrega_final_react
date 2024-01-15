@@ -1,4 +1,3 @@
-import Contacto from "./components/Contacto";
 import Carrito from "./components/Carrito/Carrito";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import "./App.css";
@@ -22,7 +21,6 @@ function App() {
               element={<ItemListContainer />}
             />
             <Route path="/item/:id" element={<ItemDetailContainer />} />
-            <Route path="/contacto" element={<Contacto />} />
             <Route path="/carrito" element={<Carrito />} />
             <Route path="/checkout" element={<Checkout />} />
           </Routes>

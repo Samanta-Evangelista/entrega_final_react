@@ -25,9 +25,6 @@ function NavBar() {
             <Link to="/categoria/golosinas" className="nav-link">
               Golosinas
             </Link>
-            <Link to="contacto" className="nav-link">
-              Contacto
-            </Link>
           </Nav>
           <Link to="carrito" className="nav-link">
             <CardWidget />
